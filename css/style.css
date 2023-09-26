@@ -121,10 +121,11 @@ main{
 }
 .row{
     width: 100%;
+    padding: 0 20px
 }
 .col{
     width: calc(100% / 6);
-    padding: 5px;
+    padding: 20px 5px;
 }
 .subtitle{
     font-size: 0.7em;
@@ -140,4 +141,35 @@ main{
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+
+/* MEDIA QUERIES */
+
+/* desktop */
+
+@media screen and (max-width:1200px) {
+    .col{
+        width: calc(100% / 4);
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    #main-menu ul{
+        flex-wrap: wrap;
+    }
+}
+
+/* tablet */
+
+@media screen and (max-width:848px) {
+    .col{
+        width: calc(100% / 2);
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    #main-menu ul{
+        flex-wrap: wrap;
+    }
 }
