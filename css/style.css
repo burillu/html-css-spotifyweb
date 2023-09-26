@@ -179,6 +179,12 @@ main{
     width: 100%;
     padding: 20px;
 }
+.side-bar li:hover, .add-playlist:hover{
+    border-left: 5px solid var(--color-highlight);
+    margin-left: -18px;
+    padding-left: 13px;
+    color: var(--color-white);
+}
 /* play-bar */
 .play-bar{
     width: 100%;
