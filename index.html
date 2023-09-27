@@ -292,6 +292,7 @@
 
             </div>
             <div class="center text-white">
+                <!-- audio control -->
                 <div class="audio-controls d-flex justify-center">
                     <!-- random control -->
                     <div class="random">
@@ -316,9 +317,40 @@
 
 
                 </div>
-            </div>
-            <div class="right">
+                <!-- time bar -->
+                <div class="range-content d-flex justify-between">
+                    <span class="time-range">0:23</span>
+                    <input type="range" name="time-bar" value="10" id="time-bar"
+                    class="time-bar">
+                    <span class="time-range">4:35</span>
 
+
+                </div>
+            </div>
+            <!-- right -->
+            <div class="right">
+                <div class="left d-flex justify-between">
+                    <!-- on plaing -->
+                    <div class="on-plaing d-flex justify-between align-center">
+                        <div class="cover-container">
+                            <img src="img/player_left.jpg" alt="player left" class="img-fluid">
+                        </div>
+                        <div class="title-plaing" >
+                            <h4 class="text-white"> Sinister</h4>
+                            <span class="xs-text">Brano Nome</span>
+                        </div>
+                    </div>
+                    <!-- wished -->
+                    <div class="wish d-flex justify-between align-center">
+                        <div class="i-heart">
+                            <i class="fa-regular fa-heart fa-lg"></i>
+                        </div>
+                        <div class="i-folder">
+                            <i class="fa-regular fa-folder fa-lg"></i>
+                        </div>
+                    </div>
+    
+                </div>
             </div>
         </div>
     </div>

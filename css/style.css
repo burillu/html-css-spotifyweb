@@ -294,6 +294,9 @@ main {
 .audio-controls>div:hover i{
     box-shadow: 0 1px 4px white;
 }
+.time-bar{
+    width: 80%;
+}
 
 /* right */
 .right{
