@@ -88,6 +88,10 @@ img {
 .padding-y10 {
     padding: 10px 0;
 }
+.circle-radius{
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 /* backgrounds */
 .bg-dark {
