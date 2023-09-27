@@ -51,7 +51,9 @@ img {
 .d-flex {
     display: flex;
 }
-
+.justify-end{
+    justify-content: flex-end;
+}
 .justify-between {
     justify-content: space-between;
 }
@@ -133,6 +135,18 @@ img {
     position: fixed;
     top: 0;
     right: 0;
+    padding: 0 20px;
+}
+.btn{
+    border: 1px solid var(--color-white);
+    padding: 10px 30px;
+    border-radius: 22px;
+    transition: transform 0.2s;
+
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: var(--color-dark-grey);
 }
 
 /* main */
@@ -288,6 +302,14 @@ main {
 
     .d-block {
         display: block;
+    }
+
+    .p-absolute-bottom {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+
     }
 
     /* .icon-center{
