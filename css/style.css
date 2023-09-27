@@ -130,6 +130,9 @@ img {
 .text-smaller {
     font-size: 0.8em;
 }
+.xs-text{
+    font-size: 0.8em;
+}
 
 /* top-bar */
 .top-bar {
@@ -257,7 +260,34 @@ main {
     bottom: 0;
     left: 0;
 }
-
+/* left */
+.left{
+    max-width: 250px;
+}
+.cover-container{
+    width: 30%;
+    margin: 0 10px;
+}
+.title-playng{
+    width: 70%;
+}
+.wish>div{
+    padding: 0 5px;
+}
+.on-plaing{
+    width: 60%;
+}
+.wish{
+    width: 20%;
+}
+/* center */
+.center{
+    width: 40%;
+}
+/* right */
+.right{
+    max-width: 250px;
+}
 
 /* MEDIA QUERIES */
 
