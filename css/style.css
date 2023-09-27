@@ -208,6 +208,9 @@ main {
 .side-bar li {
     padding: 8px 0;
 }
+.play-list ul{
+    overflow-y: auto;
+}
 
 .logo-container {
     width: 150px;
@@ -284,6 +287,14 @@ main {
 .center{
     width: 40%;
 }
+.audio-controls>div{
+    padding:5px 20px;
+    cursor: pointer;
+}
+.audio-controls>div:hover i{
+    box-shadow: 0 1px 4px white;
+}
+
 /* right */
 .right{
     max-width: 250px;
