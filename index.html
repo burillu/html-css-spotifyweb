@@ -26,57 +26,66 @@
         <main class="d-flex ">
             <!-- sidebar -->
             <div class="side-bar bg-black">
-                <div class="logo-container">
+                <div class="logo-container d-none">
                     <img id="logo" src="img/logo.svg" alt="">
+                </div>
+                <div class="logo-small d-block">
+                    <img src="img/logo-small.svg" alt="logo-small" class="img-fluid">
                 </div>
                 <!-- nav menu sidebar -->
                 <nav>
                     <ul class="padding-y10">
                         <li>
-                            <a href="#">
-                                <i class="fa-solid fa-house fa-lg"> </i> Home
+                            <a class="icon-center" href="#">
+                                <i class="fa-solid fa-house fa-lg icon-center"> </i> <span class="d-none">Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                            <i class="fa-solid fa-magnifying-glass fa-lg"> </i> Cerca
+                            <a class="icon-center" href="#">
+                                <i class="fa-solid fa-magnifying-glass fa-lg"> </i> <span class="d-none">Cerca</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa-solid fa-swatchbook fa-lg"> </i> </i> Libreria
+                            <a class="icon-center" href="#"><i class="fa-solid fa-swatchbook fa-lg"> </i> </i> <span class="d-none">Libreria</span>
                             </a>
-                            
+
                         </li>
                     </ul>
                 </nav>
-                <h4 class="text-white text-uppercase"> Playlist</h4>
-                <!-- add playlist -->
-                <div class="add-playlist padding-y10">
-                    <a href="">
-                        <i class="fa-sharp fa-solid fa-square-plus fa-2x align-inline"> </i> <span class="align-inline"> Crea Playlist</span>
-                    </a>
+                
+
+                <div class="play-list">
+                    <h4 class="text-white text-uppercase"> Playlist</h4>
+                    <!-- add playlist -->
+                    <div class="add-playlist padding-y10">
+                        <a href="">
+                            <i class="fa-sharp fa-solid fa-square-plus fa-2x align-inline"> </i> <span
+                                class="align-inline"> Crea Playlist</span>
+                        </a>
+                    </div>
+                    <ul class="text-smaller">
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
                 </div>
-                <ul class="play-list text-smaller">
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                </ul>
+
                 <div class="p-absolute-bottom">
                     <div class="install-app padding-y10 border-bottom-gray">
-                        <div class="img-install align-inline ">
-                             <img src="img/download.svg" alt="download">
+                        <div class="img-install align-inline icon-center">
+                            <img src="img/download.svg" alt="download">
                         </div>
-                        <span class="align-inline text-smaller">Installa app</span>
+                        <span class="align-inline text-smaller d-none">Installa app</span>
                     </div>
                     <div class="avatar padding-y10 d-flex align-center gap5">
-                        <div class="img-avatar bg-grey">
+                        <div class="img-avatar bg-grey icon-center">
                             <img src="img/profile.svg" alt="profile">
                         </div>
-                        <h5 class="text-white">John Doe</h5>
+                        <h5 class="text-white d-none">John Doe</h5>
                     </div>
                 </div>
             </div>
