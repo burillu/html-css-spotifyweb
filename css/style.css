@@ -174,8 +174,34 @@ main {
 #main-menu li {
     padding: 5px 10px;
     font-size: 0.8em;
+    transition: all 0.35s;
+}
+#main-menu li:hover, #main-menu li.active{
+    color: var(--color-white);
+}
+.under{
+    width: 30px;
+    height: 3px;
+    margin: 0 auto;
+    /* transition: all 0.35s; */
+    
+}
+#main-menu li:hover .under, .active>.under {
+    background-color: var(--color-highlight);
+    animation-name: under-pulse;
+    animation-duration: 0.5s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
 }
 
+@keyframes under-pulse {
+    from{
+        background-color: #acff2f7a;
+    }
+    to{
+        background-color: var(--color-highlight);
+    }
+}
 .recently {
     padding: 0 5px;
 }
