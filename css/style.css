@@ -218,6 +218,34 @@ main {
 .subtitle {
     font-size: 0.7em;
 }
+.main-content .img-container{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.play-btn{
+    display:none;
+    font-size: 2em;
+    transition: all 2s;
+}
+.play-btn>div.d-flex{
+    height: 100%;
+}
+.img-container:hover .play-btn{
+    background-color:#00000088;
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.play-btn i:hover{
+    text-shadow: 0 0 10px white;
+    transform: scale(1.05);
+}
 
 /* .title-section{
     font-weight: ;
@@ -258,7 +286,7 @@ main {
     width: 25px;
     color: #adff2f;
 }
-.img-container>img{
+.sidebar .img-container>img{
     filter: invert(50%);
 }
 
@@ -460,6 +488,9 @@ main {
 
     .d-block {
         display: block;
+    }
+    .border-bottom-gray{
+        border: none;
     }
 
     .p-absolute-bottom {
