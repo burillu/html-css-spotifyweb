@@ -295,6 +295,17 @@ main {
 }
 .wish{
     width: 20%;
+    
+}
+.wish>.i-heart:hover{
+    color: red;
+    text-shadow: 0 0 5px red;
+    cursor: pointer;
+}
+.wish>.i-folder:hover{
+     color: goldenrod;
+     text-shadow: 0 0 5px goldenrod;
+     cursor: pointer;
 }
 /* center */
 .center{
@@ -304,12 +315,16 @@ main {
     width: 100%;
 }
 .audio-controls>div{
-    /* width: calc(100% / 5); */
+    width: 50px;
     /* padding:5px 20px; */
     cursor: pointer;
 }
-.audio-controls>div:hover i{
-    box-shadow: 0 1px 4px white;
+.audio-controls>div:nth-child(3){
+    margin: 0 10px;
+}
+.audio-controls>div:hover i, .right>div>div:hover i{
+    text-shadow: 0 1px 4px white;
+    transform: scale(1.1);
 }
 .time-bar{
     width: 80%;
