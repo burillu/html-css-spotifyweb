@@ -224,6 +224,13 @@ main {
     display: none;
     margin: 0 auto;
 }
+.icon-center>.img-container{
+    width: 25px;
+    color: #adff2f;
+}
+.img-container>img{
+    filter: invert(50%);
+}
 
 .align-inline {
     vertical-align: middle;
@@ -256,6 +263,9 @@ main {
     margin-left: -18px;
     padding-left: 13px;
     color: var(--color-white);
+}
+.side-bar  li:hover .img-container>img{
+    filter: unset;
 }
 
 /* play-bar */
@@ -388,11 +398,6 @@ main {
         justify-content: center;
 
     }
-
-    /* .icon-center{
-        margin: 0 auto;
-        text-align: center;
-    } */
     .top-bar {
         width: calc(100% - 80px);
     }
